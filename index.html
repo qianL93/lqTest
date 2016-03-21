@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>五子棋</title>
+<link rel="stylesheet" type="text/css" href="css/test.css">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body ng-app="gameCtrls" style="background-color: #EEE">
+    <div ng-controller="testCtrl">
+        <div class="board" >
+            <div ng-repeat="iteam in board" class={{iteam.mclass}} ng-click="test(iteam.mindex)"></div>
+        </div>
+        <div class="back jumbotron">
+            <h2>还可以悔棋{{count}}次</h2>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button" ng-click="back()">悔棋</a></p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/gamecontroller.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
+</html>
