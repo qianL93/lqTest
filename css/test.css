@@ -1,0 +1,64 @@
+body{
+    -webkit-font-smoothing:antialiased;
+    grayscale-smoothing:antialiased;
+    
+      
+}
+.back{
+    width: 100px;
+    padding: 10px;
+    float: right;
+}
+.board{
+    cursor:pointer;
+    float: left;
+    width: 650px;
+    height: 650px;
+    margin-top: 10px;
+}
+.b{
+    position: relative;
+    width: 6.5%;
+    height: 6.5%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background: #FEC800;
+    background-image: -webkit-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-webkit-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: -o-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-o-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: linear-gradient(to right, transparent 48%, black 12%, black 52%, transparent 52%),linear-gradient(to top, transparent 48%, black 12%, black 52%, transparent 52%);
+}
+.b:hover{
+    position: relative;
+    width: 6.5%;
+    height: 6.5%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background: #FEC800;
+    background-image: radial-gradient(90% 90% ,transparent 0%, #000000 28%, #555555 32%, transparent 33%),-webkit-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-webkit-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: radial-gradient(90% 90% ,transparent 0%, #000000 28%, #555555 32%, transparent 33%),-o-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-o-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: radial-gradient(90% 90% ,transparent 0%, #000000 28%, #555555 32%, transparent 33%),linear-gradient(to right, transparent 48%, black 12%, black 52%, transparent 52%),linear-gradient(to top, transparent 48%, black 12%, black 52%, transparent 52%);
+}
+.b1{
+    width: 6.5%;
+    height: 6.5%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background: #FEC800;
+    background-image: radial-gradient(90% 90% ,#000000 0%, #000000 28%, #555555 32%, transparent 33%),-webkit-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-webkit-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: radial-gradient(90% 90% ,#000000 0%, #000000 28%, #555555 32%, transparent 33%),-o-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-o-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: radial-gradient(90% 90% ,#000000 0%, #000000 28%, #555555 32%, transparent 33%),linear-gradient(to right, transparent 48%, black 12%, black 52%, transparent 52%),linear-gradient(to top, transparent 48%, black 12%, black 52%, transparent 52%);
+}
+.b2{
+    width: 6.5%;
+    height: 6.5%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background: #FEC800;
+    background-image: radial-gradient(90% 90% , #FBFBFB 0%, #FBFBFB 28%, #E6E6E6 32%, transparent 33%),-webkit-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-webkit-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: radial-gradient(90% 90% , #FBFBFB 0%, #FBFBFB 28%, #E6E6E6 32%, transparent 33%),-o-linear-gradient(left, transparent 48%, black 12%, black 52%, transparent 52%),-o-linear-gradient(bottom, transparent 48%, black 12%, black 52%, transparent 52%);
+    background-image: radial-gradient(90% 90% , #FBFBFB 0%, #FBFBFB 28%, #E6E6E6 32%, transparent 33%),linear-gradient(to right, transparent 48%, black 12%, black 52%, transparent 52%),linear-gradient(to top, transparent 48%, black 12%, black 52%, transparent 52%);
+}
